@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/pokebola.png" type="image/x-icon">
+    <title>Pokedex API</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">  
+            <h1>P<img src="img/pokebola.png" alt="">kéDex</h1>
+            
+            <!-- se crean los botones por tipo de pokemon que se utilizaran para realizar busquedas  -->
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn btn-header" id="ver-todos">Ver Todos</button></li>
+                <li class="nav-item"><button class="btn btn-header nor" id="normal">Normal</button></li>
+                <li class="nav-item"><button class="btn btn-header fir" id="fire">Fire</button></li>
+                <li class="nav-item"><button class="btn btn-header wat" id="water">Water</button></li>
+                <li class="nav-item"><button class="btn btn-header gra" id="grass">Grass</button></li>
+                <li class="nav-item"><button class="btn btn-header ele" id="electric">Electric</button></li>
+                <li class="nav-item"><button class="btn btn-header ice" id="ice">Ice</button></li>
+                <li class="nav-item"><button class="btn btn-header fig" id="fighting">Fighting</button></li>
+                <li class="nav-item"><button class="btn btn-header poi" id="poison">Poison</button></li>
+                <li class="nav-item"><button class="btn btn-header gro" id="ground">Ground</button></li>
+                <li class="nav-item"><button class="btn btn-header fly" id="flying">Flying</button></li>
+                <li class="nav-item"><button class="btn btn-header psy" id="psychic">Psychic</button></li>
+                <li class="nav-item"><button class="btn btn-header bug" id="bug">Bug</button></li>
+                <li class="nav-item"><button class="btn btn-header roc" id="rock">Rock</button></li>
+                <li class="nav-item"><button class="btn btn-header gho" id="ghost">Ghost</button></li>
+                <li class="nav-item"><button class="btn btn-header dar" id="dark">Dark</button></li>
+                <li class="nav-item"><button class="btn btn-header dra" id="dragon">Dragon</button></li>
+                <li class="nav-item"><button class="btn btn-header ste" id="steel">Steel</button></li>
+                <li class="nav-item"><button class="btn btn-header fai" id="fairy">Fairy</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="app">
+            <div class="pokemon-app" id="lista-pokemon">
+                
+            </div>
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
