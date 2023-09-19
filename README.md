@@ -13,6 +13,6 @@ Busqueda por boton Electric:
 ![BUSQUEDA_ELECTRIC](https://github.com/RobertoPavon/POKE_API_JS/assets/136355355/b7877a4d-afb7-4fb5-b604-7ff852dff60a)
 
 
-Proyecto realizado siguiento el turorial de Carpi Coder:
+Proyecto realizado siguiendo el turorial de Carpi Coder:
 https://www.youtube.com/watch?v=EmxvMPcIy5c
 
